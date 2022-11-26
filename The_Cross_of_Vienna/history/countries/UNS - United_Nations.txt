@@ -1,0 +1,37 @@
+﻿capital = 835
+set_research_slots = 5
+set_stability = 0.96
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+	}
+	set_naval_oob = "SCO_1936_naval_legacy"
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+	}
+	set_naval_oob = "SCO_1936_naval_mtg"
+}
+set_popularities = {
+	democratic = 80
+	communism = 5
+	fascism = 10
+	neutrality = 5
+}
+set_politics = {
+	ruling_party = democratic #执政党的意识形态
+	last_election = "1932.11.8" #上次大选时间
+	election_frequency = 48 #大选间隔时间，单位：月
+	elections_allowed = yes #是否有下次大选，no为没有，yes为有
+}

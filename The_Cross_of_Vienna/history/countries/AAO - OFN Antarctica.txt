@@ -1,0 +1,26 @@
+﻿capital = 882
+
+oob = "Antarctic_Garrison"
+
+
+add_ideas = Antarctica_Territory_Generic_Idea
+add_ideas = OFN_Military_Government
+add_ideas = AAO_McMurdo_Station
+add_ideas = AAO_OFN_Tensions
+
+add_ideas = AAO_James_R_Reedy_dep
+add_ideas = AAO_Herman_Phleger_pol
+add_ideas = AAO_Howard_Beale_eco
+add_ideas = AAO_William_Robertson_sec
+
+set_research_slots = 0
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+country_lock_all_division_template = yes
+
