@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"hoi4ModUtilities.modFile": "d:\\TCV\\The_Cross_of_Vienna\\descriptor.mod",
+		"cwtools.localisation.languages": [
+			"Chinese"
+		]
+	}
+}
