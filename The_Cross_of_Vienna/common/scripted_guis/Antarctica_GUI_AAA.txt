@@ -1,0 +1,34 @@
+scripted_gui = {
+	Antarctica_GUI_AAA = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAA"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+			
+		}
+		
+		properties = {
+			Antarctica_GUI_AAA_Supplies_Main_Base_Bar = {
+				frame = Antarctica_GUI_AAA_Base_Supply
+			}
+			Antarctica_GUI_AAA_Supplies_Sub_Base_Bar = {
+				frame = Antarctica_GUI_AAA_SubBase_Supply
+			}
+			Antarctica_GUI_AAA_Supplies_Patrol_Bar = {
+				frame = Antarctica_GUI_AAA_Patrol_Supply
+			}
+			
+			Antarctica_GUI_AAA_Info_Secrecy_Bar = {
+				frame = Antarctica_GUI_AAA_Mission_Secrecy
+			}
+		}
+	}
+}

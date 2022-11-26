@@ -1,0 +1,27 @@
+add_namespace = germany
+country_event = {
+	id = germany.1
+    picture = ""
+    title = germany.1.t
+    desc = germany.1.d
+    trigger = {
+		tag = GER
+		tag = SOV
+    }
+    fire_only_once = yes 
+	immediate = { 
+		#country_lock_all_division_template = yes
+	}
+	mean_time_to_happen = {
+		days = 0
+		months = 0
+		years = 0
+	}
+	
+    option = { 
+        name = germany.1.a
+		trigger = {
+			always = yes
+		}
+	}
+}
